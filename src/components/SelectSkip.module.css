@@ -1,0 +1,135 @@
+.mainCard :global(.content),
+.infoCard :global(.content) {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+}
+.image {
+  height: 120px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 8px;
+}
+.skipsPhoto {
+  height: 237px;
+  width: 100%;
+}
+.dropdown {
+  margin-bottom: 1.5rem;
+}
+
+.warningIcon {
+  font-size: 10rem;
+}
+.gridRow {
+  background-color: #383838;
+}
+
+.mainCard,
+.infoCard {
+  display: flex;
+  flex-direction: column;
+  max-height: 600px;
+}
+.skipCard {
+  background-color: #2e2e2e !important;
+  border: 1px solid #4d4d4d !important;
+  border-radius: 12px !important;
+  padding: 1.5rem !important;
+  color: white !important;
+}
+
+.cardHeader {
+  margin-bottom: 1rem;
+}
+
+.details {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.detailRow {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 1.1rem;
+  color: #e0e0e0;
+}
+.warningInfo {
+  color: #1da1f2;
+  margin-top: 1rem;
+  display: flex;
+}
+.warnings {
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  padding: 5px;
+  margin: auto;
+  border: 1px solid white;
+}
+.price {
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: #1da1f2;
+  margin-top: 0.8rem;
+}
+.dangerText {
+  color: #ff4d4d;
+  font-weight: bold;
+}
+
+.warningText {
+  color: #ffcc00;
+  font-weight: bold;
+}
+.okText {
+  color: green;
+}
+.selectButton {
+  margin-top: 1rem;
+  font-weight: bold;
+}
+
+.headerName {
+  text-align: center;
+  color: white;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+:global(.ui.selection.dropdown) {
+  background-color: #383838;
+  color: white;
+  border: 1px solid #6b6262;
+}
+
+:global(.ui.selection.dropdown .menu),
+:global(.ui.selection.dropdown .menu > .item) {
+  background-color: #383838;
+  color: white;
+}
+:global(.ui.selection.dropdown .menu > .item):hover {
+  color: rgb(23, 20, 20);
+  background: #aba8a8;
+}
+
+:global(.ui.card),
+:global(.ui.card > .content),
+:global(.ui.card > .content > .header),
+:global(.ui.cards > .card > .description),
+:global(.ui.cards > .card > .content) {
+  background-color: #383838;
+  color: white !important;
+}
+
+:global(.ui.card > .content > .header) {
+  text-align: center;
+  margin-bottom: 0.5rem;
+  margin-bottom: 1em;
+}
+.list {
+  color: white;
+}
